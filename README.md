@@ -3,7 +3,7 @@
 <h1 align="center">Hi 👋, I'm Hridayan</h1>
 <h3 align="center">A passionate mobile app developer from India</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=dp-hridayan&label=Profile%20views&color=0e75b6&style=flat" alt="dp-hridayan" /> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=dp-hridayan&label=Profile%20views&color=0e75b6&style=flat" alt="dp-hridayan" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=dp-hridayan" alt="dp-hridayan" /></a> </p>
 
@@ -13,7 +13,7 @@
 
 - 📫 How to reach me **hridayanofficial@gmail.com**
 
-- ⚡ Fun fact **I am funny**<br>
+- ⚡ Fun fact **I am funny**<br><br>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
