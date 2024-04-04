@@ -13,7 +13,7 @@
 
 - 📫 How to reach me **hridayanofficial@gmail.com**
 
-- ⚡ Fun fact **I am funny**
+- ⚡ Fun fact **I am funny**<br>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
