@@ -1,34 +1,68 @@
-<img align="center" alt="Coding" width="400" src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif">
-
-<h1 align="center">Hi 👋, I'm Hridayan</h1>
-<h3 align="center">A Passionate Mobile App Developer from India</h3>
-
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=dp-hridayan&label=Profile%20views&color=0e75b6&style=flat" alt="dp-hridayan" /> </p>
-
-<p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=dp-hridayan" alt="dp-hridayan" /></a> </p>
-
-- 🔭 I’m currently working on [aShell You](https://github.com/DP-Hridayan/aShellYou)
-- 🌱 I’m currently learning **Java**
-- 📫 How to reach me: **hridayanofficial@gmail.com**
-- ⚡ Fun fact: **I have a great sense of humor**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="https://twitter.com/spirriy1" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter" height="30" width="40" /></a>
-  <a href="https://linkedin.com/in/your-linkedin" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="center">
-  <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> 
-  <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> 
-  <a href="https://developer.apple.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apple/apple-original.svg" alt="apple" width="40" height="40"/> </a>
-</p>
+<!-- Fancy Header -->
+<h1 align="center">Hey, I'm Hridayan <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"></h1>
+<h3 align="center">Android Developer | UI design enthusiast </h3>
 
 <p align="center">
-  <a href="https://www.buymeacoffee.com/hridayan">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Buy Me a Coffee" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=500&lines=Just+a+guy+who+loves+apps+%26+design;Crafting+Android+apps;Mastering+Jetpack+Compose+bit+by+bit;Designing+with+Material+You;Building%2C+one+app+at+a+time" alt="Typing SVG">
 </p>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=DP-Hridayan&theme=ocean-gradient&hide_border=true&border_radius=50&card_width=500)](https://git.io/streak-stats)
+---
+
+### 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kotlin-%230095D5.svg?style=for-the-badge&logo=kotlin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Android-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jetpack%20Compose-%23007ACC.svg?style=for-the-badge&logo=jetpackcompose&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Material%20Design-757575?style=for-the-badge&logo=material-design&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
+</p>
+
+---
+
+### 📈 GitHub Stats
+
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&theme=tokyonight" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=dp-hridayan&theme=tokyonight"/>
+</p>
+
+---
+
+### 🚀 Featured Projects
+
+> *(Update these with your own repos)*
+
+- [**ADB Commander**](https://github.com/dp-hridayan/adb-commander) – Control Android devices with ADB through OTG or wireless  
+- [**Compose Commands**](https://github.com/dp-hridayan/compose-commands) – Jetpack Compose app to manage terminal commands beautifully  
+- [**BusyBox Terminal**](https://github.com/dp-hridayan/busybox-terminal) – Rootless terminal using sandboxed BusyBox magic
+
+---
+
+### 🌐 Let's Connect
+
+<p align="center">
+  <a href="mailto:hridayanofficial@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://t.me/hridayan"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/hridayan"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+</p>
+
+---
+
+### 🏆 Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=dp-hridayan&theme=tokyonight&no-frame=true&row=1&column=6"/>
+</p>
+
+---
+
+### 💡 A Little About Me
+
+```md
+- 🔥 Passionate about building Android apps with great design
+- 📱 Learning Jetpack Compose & Material You
+- 🧠 Exploring sandboxing, OTG-based ADB, and rootless systems
+- 🛠 Started my developer journey entirely with my phone
+- ☕ Fuelled by Java & Kotlin (and sometimes chai)
