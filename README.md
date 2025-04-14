@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hey,%20I'm%20Hridayan&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hey,%20I'm%20Hridayan&animation=fadeIn&desc=Android%20app%20developer%20|%20UI%20designer&descAlign=50&descAlignY=55&fontAlignY=35" />
 </p>
-
-<h3 align="center">Android Developer | UI designer</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=500&lines=Just+a+guy+who+loves+apps+%26+design;Crafting+Android+apps;Mastering+Jetpack+Compose+bit+by+bit;Designing+with+Material+You;Building+one+app+at+a+time" alt="Typing SVG">
