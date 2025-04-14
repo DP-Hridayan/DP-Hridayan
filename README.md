@@ -28,13 +28,13 @@
 <p align="center">
   <picture>
     <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&theme=tokyonight&hide_border=true&border_radius=25"
+      srcset="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&theme=tokyonight&hide_border=true"
       media="(prefers-color-scheme: dark)" />
     <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&theme=default&hide_border=true&border_radius=25"
+      srcset="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&hide_border=true&bg_color=E3F2FD&title_color=0D47A1&text_color=1565C0&icon_color=1E88E5"
       media="(prefers-color-scheme: light)" />
     <img 
-      src="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&theme=default&hide_border=true&border_radius=25" 
+      src="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&hide_border=true&bg_color=E3F2FD&title_color=0D47A1&text_color=1565C0&icon_color=1E88E5" 
       alt="GitHub Stats" />
   </picture>
 </p>
