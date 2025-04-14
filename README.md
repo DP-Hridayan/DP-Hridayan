@@ -42,17 +42,16 @@
 <p align="center">
   <picture>
     <source 
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=dp-hridayan&theme=tokyo-night&hide_border=true&radius=25"
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=dp-hridayan&hide_border=true&area_color=388E3C&line=66BB6A&point=81C784&color=C8E6C9&bg_color=1B1F1B"
       media="(prefers-color-scheme: dark)" />
     <source 
-      srcset="https://github-readme-activity-graph.vercel.app/graph?username=dp-hridayan&theme=github-light&hide_border=true&radius=25"
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=dp-hridayan&hide_border=true&area_color=A5D6A7&line=A5D6A7&point=66BB6A&color=1B5E20&bg_color=E8F5E9"
       media="(prefers-color-scheme: light)" />
     <img 
-      src="https://github-readme-activity-graph.vercel.app/graph?username=dp-hridayan&theme=github-light&hide_border=true&radius=25"
+      src="https://github-readme-activity-graph.vercel.app/graph?username=dp-hridayan&hide_border=true&area_color=A5D6A7&line=A5D6A7&point=66BB6A&color=1B5E20&bg_color=E8F5E9" 
       alt="Activity Graph" />
   </picture>
 </p>
-
 ---
 
 ### 🚀 Featured Projects
