@@ -2,7 +2,7 @@
 <h3 align="center">Android Developer | UI design enthusiast </h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=500&lines=Just+a+guy+who+loves+apps+%26+design;Crafting+Android+apps;Mastering+Jetpack+Compose+bit+by+bit;Designing+with+Material+You;Building%2C+one+app+at+a+time" alt="Typing SVG">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=500&lines=Just+a+guy+who+loves+apps+%26+design;Crafting+Android+apps;Mastering+Jetpack+Compose+bit+by+bit;Designing+with+Material+You;Building+one+app+at+a+time" alt="Typing SVG">
 </p>
 
 ---
