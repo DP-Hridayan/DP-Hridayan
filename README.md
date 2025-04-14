@@ -26,7 +26,17 @@
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&theme=tokyonight&border_radius=25" alt="GitHub Stats"/>
+  <picture>
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&theme=tokyonight&border_radius=25"
+      media="(prefers-color-scheme: dark)" />
+    <source 
+      srcset="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&theme=default&border_radius=25"
+      media="(prefers-color-scheme: light)" />
+    <img 
+      src="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&theme=default&border_radius=25" 
+      alt="GitHub Stats" />
+  </picture>
 </p>
 
 ---
