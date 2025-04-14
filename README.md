@@ -1,4 +1,7 @@
-<h1 align="center">Hey, I'm Hridayan <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"></h1>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=190&section=header&text=Hi%20I'm%20Hridayan&fontSize=60&fontAlign=50&fontColor=ffffff" />
+</p>
+
 <h3 align="center">Android Developer | UI design enthusiast </h3>
 
 <p align="center">
