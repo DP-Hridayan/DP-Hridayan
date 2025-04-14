@@ -26,11 +26,7 @@
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&theme=tokyonight" alt="GitHub Stats"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=dp-hridayan&theme=tokyonight" alt="GitHub Streak"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&theme=tokyonight&border_radius=25" alt="GitHub Stats"/>
 </p>
 
 ---
