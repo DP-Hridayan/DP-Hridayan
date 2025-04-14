@@ -23,8 +23,11 @@
 ### 📈 GitHub Stats
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=dp-hridayan&theme=tokyonight"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&theme=tokyonight" alt="GitHub Stats"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=dp-hridayan&theme=tokyonight" alt="GitHub Streak"/>
 </p>
 
 ---
