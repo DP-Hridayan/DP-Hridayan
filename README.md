@@ -128,11 +128,11 @@
 ### 💡 A Little About Me
 
 ```md
-- 🔥 Passionate about building Android apps with great design
-- 📱 Learning Jetpack Compose & Material You
-- 🧠 Exploring sandboxing, OTG-based ADB, and rootless systems
-- 🛠 Started my developer journey entirely with my phone
-- ☕ Fuelled by Java & Kotlin (and sometimes chai)
+- Passionate about building Android apps with great design
+- Learning Jetpack Compose & Material You
+- Exploring sandboxing, OTG-based ADB, and rootless systems
+- Started my developer journey entirely with my phone
+- Fuelled by Java & Kotlin (and sometimes chai)
 ```
 
 ### ✨ Quote I Live By
