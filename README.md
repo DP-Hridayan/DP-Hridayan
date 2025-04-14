@@ -39,11 +39,32 @@
   </picture>
 </p>
 
+<p align="center">
+  <picture>
+    <source 
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=dp-hridayan&theme=tokyo-night&hide_border=true&radius=25"
+      media="(prefers-color-scheme: dark)" />
+    <source 
+      srcset="https://github-readme-activity-graph.vercel.app/graph?username=dp-hridayan&theme=github-light&hide_border=true&radius=25"
+      media="(prefers-color-scheme: light)" />
+    <img 
+      src="https://github-readme-activity-graph.vercel.app/graph?username=dp-hridayan&theme=github-light&hide_border=true&radius=25"
+      alt="Activity Graph" />
+  </picture>
+</p>
+
 ---
 
 ### 🚀 Featured Projects
-- [**aShell You**](https://github.com/dp-hridayan/ashellyou) – Run ADB commands on your android device without a pc 
-- [**XMLForge**](https://github.com/dp-hridayan/xmlforge) – Format layout xml files with beautification
+
+<p align="center">
+  <a href="https://github.com/dp-hridayan/ashellyou">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=ashellyou&theme=tokyonight" />
+  </a>
+  <a href="https://github.com/dp-hridayan/xmlforge">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=xmlforge&theme=tokyonight" />
+  </a>
+</p>
 
 ---
 
