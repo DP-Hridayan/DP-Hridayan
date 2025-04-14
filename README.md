@@ -59,7 +59,17 @@
 ### 🏆 Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dp-hridayan&theme=tokyonight&no-frame=true&row=1&column=6"/>
+  <picture>
+    <source 
+      srcset="https://github-profile-trophy.vercel.app/?username=dp-hridayan&theme=tokyonight&no-frame=true&row=1&column=6"
+      media="(prefers-color-scheme: dark)" />
+    <source 
+      srcset="https://github-profile-trophy.vercel.app/?username=dp-hridayan&theme=flat&no-frame=true&row=1&column=6"
+      media="(prefers-color-scheme: light)" />
+    <img 
+      src="https://github-profile-trophy.vercel.app/?username=dp-hridayan&theme=flat&no-frame=true&row=1&column=6" 
+      alt="GitHub Trophies" />
+  </picture>
 </p>
 
 -----
