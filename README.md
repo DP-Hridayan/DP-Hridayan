@@ -28,13 +28,13 @@
 <p align="center">
   <picture>
     <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&theme=tokyonight&border_radius=25"
+      srcset="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&theme=tokyonight&hide_border=true&border_radius=25"
       media="(prefers-color-scheme: dark)" />
     <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&theme=default&border_radius=25"
+      srcset="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&theme=default&hide_border=true&border_radius=25"
       media="(prefers-color-scheme: light)" />
     <img 
-      src="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&theme=default&border_radius=25" 
+      src="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&theme=default&hide_border=true&border_radius=25" 
       alt="GitHub Stats" />
   </picture>
 </p>
@@ -58,12 +58,31 @@
 ### 🚀 Featured Projects
 
 <p align="center">
-  <a href="https://github.com/dp-hridayan/ashellyou">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=ashellyou&theme=tokyonight" />
-  </a>
-  <a href="https://github.com/dp-hridayan/xmlforge">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=xmlforge&theme=tokyonight" />
-  </a>
+
+  <picture>
+    <source 
+      media="(prefers-color-scheme: dark)" 
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=ashellyou&theme=tokyonight&hide_border=true" />
+    <source 
+      media="(prefers-color-scheme: light)" 
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=ashellyou&theme=default&hide_border=true" />
+    <img 
+      src="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=ashellyou&theme=default&hide_border=true"
+      alt="ashellyou" />
+  </picture>
+
+  <picture>
+    <source 
+      media="(prefers-color-scheme: dark)" 
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=xmlforge&theme=tokyonight&hide_border=true" />
+    <source 
+      media="(prefers-color-scheme: light)" 
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=xmlforge&theme=default&hide_border=true" />
+    <img 
+      src="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=xmlforge&theme=default&hide_border=true"
+      alt="xmlforge" />
+  </picture>
+
 </p>
 
 ---
