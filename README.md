@@ -46,7 +46,6 @@
   <a href="https://linkedin.com/in/dp-hridayan-36a087296"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 </p>
 
----
 
 ### 🏆 Trophies
 
@@ -54,7 +53,7 @@
   <img src="https://github-profile-trophy.vercel.app/?username=dp-hridayan&theme=tokyonight&no-frame=true&row=1&column=6"/>
 </p>
 
----
+-----
 
 ### 💡 A Little About Me
 
@@ -64,3 +63,9 @@
 - 🧠 Exploring sandboxing, OTG-based ADB, and rootless systems
 - 🛠 Started my developer journey entirely with my phone
 - ☕ Fuelled by Java & Kotlin (and sometimes chai)
+```
+
+### ✨ Quote I Live By
+
+> Code is like humor. When you have to explain it, it’s bad.
+
