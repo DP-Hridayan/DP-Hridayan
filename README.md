@@ -8,7 +8,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=500&lines=Just+a+guy+who+loves+apps+%26+design;Crafting+Android+apps;Mastering+Jetpack+Compose+bit+by+bit;Designing+with+Material+You;Building+one+app+at+a+time" alt="Typing SVG">
 </p>
 
-<hr style="border: 0; height: 1px; background: linear-gradient(to right, #00c6ff, #0072ff);" />
+---
 
 ### 🛠️ Tech Stack
 
