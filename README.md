@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=190&section=header&text=Hi%20I'm%20Hridayan&fontSize=60&fontAlign=50&fontColor=ffffff" />
 </p>
 
-<h3 align="center">Android Developer | UI design enthusiast </h3>
+<h3 align="center">Android Developer | UI designer</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=500&lines=Just+a+guy+who+loves+apps+%26+design;Crafting+Android+apps;Mastering+Jetpack+Compose+bit+by+bit;Designing+with+Material+You;Building+one+app+at+a+time" alt="Typing SVG">
