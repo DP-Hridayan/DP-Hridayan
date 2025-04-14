@@ -1,4 +1,3 @@
-<!-- Fancy Header -->
 <h1 align="center">Hey, I'm Hridayan <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"></h1>
 <h3 align="center">Android Developer | UI design enthusiast </h3>
 
@@ -31,12 +30,8 @@
 ---
 
 ### 🚀 Featured Projects
-
-> *(Update these with your own repos)*
-
-- [**ADB Commander**](https://github.com/dp-hridayan/adb-commander) – Control Android devices with ADB through OTG or wireless  
-- [**Compose Commands**](https://github.com/dp-hridayan/compose-commands) – Jetpack Compose app to manage terminal commands beautifully  
-- [**BusyBox Terminal**](https://github.com/dp-hridayan/busybox-terminal) – Rootless terminal using sandboxed BusyBox magic
+- [**aShell You**](https://github.com/dp-hridayan/ashellyou) – Run ADB commands on your android device without a pc 
+- [**XMLForge**](https://github.com/dp-hridayan/xmlforge) – Format layout xml files with beautification
 
 ---
 
