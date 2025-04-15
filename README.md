@@ -135,6 +135,7 @@
 - Started my developer journey entirely with my phone
 - Fuelled by Java & Kotlin (and sometimes chai)
 ```
+</br>
 
 <h2 align="center">Quote I live by</h2>
 
