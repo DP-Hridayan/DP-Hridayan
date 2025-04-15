@@ -6,7 +6,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=500&lines=Just+a+guy+who+loves+apps+%26+design;Crafting+Android+apps;Mastering+Jetpack+Compose+bit+by+bit;Designing+with+Material+You;Building+one+app+at+a+time" alt="Typing SVG">
 </p>
 
----
+</br>
 
 ### 🛠️ Tech Stack
 
@@ -19,7 +19,7 @@
   <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
 </p>
 
----
+</br>
 
 ### 📈 GitHub Stats
 
@@ -51,7 +51,7 @@
   </picture>
 </p>
 
----
+</br>
 
 ### 🚀 Featured Projects
 
@@ -89,7 +89,8 @@
   </picture>
 </a>
 
----
+</br>
+</br>
 
 ### 🌐 Let's Connect
 
@@ -104,6 +105,8 @@
     <img src="https://img.shields.io/badge/Email-hridayanofficial@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
 </p>
+
+</br>
 
 ### 🏆 Trophies
 
@@ -121,7 +124,7 @@
   </picture>
 </p>
 
------
+</br>
 
 ### 💡 A Little About Me
 
