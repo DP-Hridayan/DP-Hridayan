@@ -8,7 +8,7 @@
 
 </br>
 
-### 🛠️ Tech Stack
+<h2 align="center">Tech that I use</h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white"/>
@@ -21,7 +21,7 @@
 
 </br>
 
-### 📈 GitHub Stats
+<h2 align="center">Github stats</h2>
 
 <p align="center">
   <picture>
@@ -53,7 +53,7 @@
 
 </br>
 
-### 🚀 Featured Projects
+<h2 align="center">Featured Projects</h2>
 
 <p align="center">
 
@@ -92,7 +92,7 @@
 </br>
 </br>
 
-### 🌐 Let's Connect
+<h2 align="center">Let's connect</h2>
 
 <p align="center">
   <a href="https://t.me/hridayan">
@@ -108,7 +108,7 @@
 
 </br>
 
-### 🏆 Trophies
+<h2 align="center">Trophies</h2>
 
 <p align="center">
   <picture>
@@ -126,7 +126,7 @@
 
 </br>
 
-### 💡 A Little About Me
+<h2 align="center">A little about me</h2>
 
 ```md
 - Passionate about building Android apps with great design
