@@ -136,7 +136,7 @@
 - Fuelled by Java & Kotlin (and sometimes chai)
 ```
 
-### ✨ Quote I Live By
+<h2 align="center">Quote I live by</h2>
 
 > Code is like humor. When you have to explain it, it’s bad.
 
