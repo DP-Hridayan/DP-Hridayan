@@ -12,10 +12,13 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kotlin-%230095D5.svg?style=for-the-badge&logo=kotlin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kotlin-%23B125E3.svg?style=for-the-badge&logo=kotlin&logoColor=white"/>
   <img src="https://img.shields.io/badge/Android-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white"/>
   <img src="https://img.shields.io/badge/Jetpack%20Compose-%23007ACC.svg?style=for-the-badge&logo=jetpackcompose&logoColor=white"/>
   <img src="https://img.shields.io/badge/Material%20Design-757575?style=for-the-badge&logo=material-design&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Dagger%20Hilt-%236200EE.svg?style=for-the-badge&logo=dagger&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Room-3F51B5?style=for-the-badge&logo=sqlite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
 </p>
 
