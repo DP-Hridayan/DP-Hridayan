@@ -1,63 +1,181 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=190&section=header&text=Hi%20I'm%20Hridayan&fontSize=60&fontAlign=50&fontColor=ffffff" />
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hridayan's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Fira Code', monospace;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(135deg, #6e7dff, #6e5eff);
+            color: white;
+            padding: 60px 0;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.1rem;
+            font-weight: 300;
+        }
+        .tech-icons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .tech-icons img {
+            width: 120px;
+            height: auto;
+        }
+        .github-stats, .activity-graph {
+            margin: 40px 0;
+        }
+        .project-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+        .project-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .project-card .project-info {
+            padding: 15px;
+            text-align: left;
+        }
+        .project-card .project-info h3 {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        .cta-buttons a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #6e7dff;
+            color: white;
+            border-radius: 30px;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+        .cta-buttons a:hover {
+            background-color: #5c6fdb;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
 
-<h3 align="center">Android Developer | UI design enthusiast </h3>
+<header>
+    <h1>Hey, I'm Hridayan</h1>
+    <p>Android App Developer | UI Designer</p>
+</header>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=500&lines=Just+a+guy+who+loves+apps+%26+design;Crafting+Android+apps;Mastering+Jetpack+Compose+bit+by+bit;Designing+with+Material+You;Building+one+app+at+a+time" alt="Typing SVG">
-</p>
+<section>
+    <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hey,%20I'm%20Hridayan&animation=fadeIn&desc=Android%20app%20developer%20|%20UI%20designer&descAlign=50&descAlignY=55&fontAlignY=35" alt="Hridayan Banner" />
+</section>
 
-<hr>
-<h3 id="-tech-stack">🛠️ Tech Stack</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kotlin-%230095D5.svg?style=for-the-badge&logo=kotlin&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Android-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Jetpack%20Compose-%23007ACC.svg?style=for-the-badge&logo=jetpackcompose&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Material%20Design-757575?style=for-the-badge&logo=material-design&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
-</p>
+<section>
+    <h2>Tech that I use</h2>
+    <div class="tech-icons">
+        <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Kotlin-%23B125E3.svg?style=for-the-badge&logo=kotlin&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Android-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Jetpack%20Compose-%23007ACC.svg?style=for-the-badge&logo=jetpackcompose&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Material%20Design-757575?style=for-the-badge&logo=material-design&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Dagger%20Hilt-%236200EE.svg?style=for-the-badge&logo=dagger&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Room-3F51B5?style=for-the-badge&logo=sqlite&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white"/>
+        <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
+    </div>
+</section>
 
-<hr>
-<h3 id="-github-stats">📈 GitHub Stats</h3>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&theme=tokyonight" alt="GitHub Stats"/>
-</p>
+<section>
+    <h2>Github Stats</h2>
+    <p><img src="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&hide_border=true&bg_color=0D1117&title_color=90CAF9&text_color=64B5F6&icon_color=CE93D8" alt="GitHub Stats" /></p>
+    <p><img src="https://github-readme-activity-graph.vercel.app/graph?username=dp-hridayan&hide_border=true&area_color=388E3C&line=66BB6A&point=81C784&color=C8E6C9&bg_color=1B1F1B" alt="Activity Graph" /></p>
+</section>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=dp-hridayan&theme=tokyonight" alt="GitHub Streak"/>
-</p>
+<section>
+    <h2>Featured Projects</h2>
+    <div class="project-card">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=ashellyou&hide_border=true&bg_color=E3F2FD&title_color=0D47A1&text_color=1565C0&icon_color=8E24AA" alt="ashellyou Project">
+        <div class="project-info">
+            <h3>Ashellyou</h3>
+            <p>Android app that provides an interactive way to run commands and manage settings.</p>
+            <a href="https://github.com/dp-hridayan/ashellyou" class="cta-buttons">View on GitHub</a>
+        </div>
+    </div>
+    <div class="project-card">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=xmlforge&hide_border=true&bg_color=E3F2FD&title_color=0D47A1&text_color=1565C0&icon_color=8E24AA" alt="xmlforge Project">
+        <div class="project-info">
+            <h3>XMLForge</h3>
+            <p>Tool to help developers format and manage Android XML files with ease.</p>
+            <a href="https://github.com/dp-hridayan/xmlforge" class="cta-buttons">View on GitHub</a>
+        </div>
+    </div>
+</section>
 
-<hr>
-<h3 id="-featured-projects">🚀 Featured Projects</h3>
-<ul>
-<li><a href="https://github.com/dp-hridayan/ashellyou"><strong>aShell You</strong></a> – Run ADB commands on your android device without a pc </li>
-<li><a href="https://github.com/dp-hridayan/xmlforge"><strong>XMLForge</strong></a> – Format layout xml files with beautification</li>
-</ul>
-<hr>
-<h3 id="-let-s-connect">🌐 Let&#39;s Connect</h3>
-<p align="center">
-  <a href="mailto:hridayanofficial@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="https://t.me/hridayan"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/dp-hridayan-36a087296"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-</p>
+<section>
+    <h2>Let's Connect</h2>
+    <div>
+        <a href="https://t.me/hridayan" class="cta-buttons">Telegram</a>
+        <a href="https://linkedin.com/in/dp-hridayan-36a087296" class="cta-buttons">LinkedIn</a>
+        <a href="mailto:hridayanofficial@gmail.com" class="cta-buttons">Email</a>
+    </div>
+</section>
 
+<section>
+    <h2>Trophies</h2>
+    <img src="https://github-profile-trophy.vercel.app/?username=dp-hridayan&theme=flat&no-frame=true&row=1&column=6" alt="GitHub Trophies" />
+</section>
 
-<h3 id="-trophies">🏆 Trophies</h3>
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dp-hridayan&theme=tokyonight&no-frame=true&row=1&column=6"/>
-</p>
+<section>
+    <h2>A Little About Me</h2>
+    <p>- Passionate about building Android apps with great design</p>
+    <p>- Learning Jetpack Compose & Material You</p>
+    <p>- Exploring sandboxing, OTG-based ADB, and rootless systems</p>
+    <p>- Started my developer journey entirely with my phone</p>
+    <p>- Fuelled by Java & Kotlin (and sometimes chai)</p>
+</section>
 
-<hr>
-<h3 id="-a-little-about-me">💡 A Little About Me</h3>
-<pre><code class="lang-md">-<span class="ruby"> 🔥 Passionate about building Android apps with great design
-</span>-<span class="ruby"> 📱 Learning Jetpack Compose &amp; Material You
-</span>-<span class="ruby"> 🧠 Exploring sandboxing, OTG-based ADB, <span class="hljs-keyword">and</span> rootless systems
-</span>-<span class="ruby"> 🛠 Started my developer journey entirely with my phone
-</span>-<span class="ruby"> ☕ Fuelled by Java &amp; Kotlin (<span class="hljs-keyword">and</span> sometimes chai)</span>
-</code></pre>
-<h3 id="-quote-i-live-by">✨ Quote I Live By</h3>
-<blockquote>
-<p>Code is like humor. When you have to explain it, it’s bad.</p>
-</blockquote>
+<section>
+    <h2>Quote I Live By</h2>
+    <blockquote>
+        <p>Code is like humor. When you have to explain it, it’s bad.</p>
+    </blockquote>
+</section>
+
+<footer>
+    <p>&copy; 2025 Hridayan. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
