@@ -102,7 +102,7 @@
     <img src="https://img.shields.io/badge/Telegram-@hridayan-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>
   </a>
   <a href="https://linkedin.com/in/dp-hridayan-36a087296">
-    <img src="https://img.shields.io/badge/LinkedIn-dp--hridayan-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LinkedIn-DP%20HRIDAYAN-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="mailto:hridayanofficial@gmail.com">
     <img src="https://img.shields.io/badge/Email-hridayanofficial@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
