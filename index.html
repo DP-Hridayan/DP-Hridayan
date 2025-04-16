@@ -1,46 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="description" content="Hridayan's GitHub Profile Card" />
-    <title>Hridayan | GitHub Profile Card</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hridayan's Developer Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
-      body {
-        margin: 0;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #0d1117;
-        color: #c9d1d9;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        flex-direction: column;
-        padding: 2rem;
-      }
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            transition: background-color 0.3s ease;
+        }
 
-      .card {
-        background-color: #161b22;
-        border-radius: 1rem;
-        padding: 2rem;
-        max-width: 900px;
-        width: 100%;
-        text-align: center;
-        box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-      }
+        .dark-mode {
+            background-color: #121212;
+            color: #eaeaea;
+        }
 
-      h1 {
-        margin-bottom: 0.5rem;
-        font-size: 2.5rem;
-      }
+        h1, h2, h3 {
+            margin: 0;
+            font-weight: 600;
+        }
 
-      p {
-        margin-top: 0;
-        margin-bottom: 1.5rem;
-        font-size: 1.2rem;
-      }
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            margin-top: 50px;
+        }
 
-      .badges,
+        h2 {
+            font-size: 2rem;
+            margin: 30px 0;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            box-sizing: border-box;
+        }
+
+        .section {
+            margin-bottom: 60px;
+        }
+
+        /* Badge and Icons */
+              .badges,
       .socials {
         display: flex;
         flex-wrap: wrap;
@@ -61,84 +80,99 @@
         border-radius: 4px;
       }
 
-      .projects {
-        margin-top: 2rem;
-      }
-
-      .projects h2 {
-        margin-bottom: 1rem;
-        font-size: 1.8rem;
-      }
-
-      .project-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        gap: 1rem;
-      }
-
-      .project-card {
-        background-color: #21262d;
-        border-radius: 0.75rem;
-        padding: 1.2rem;
-        text-align: left;
-        box-shadow: 0 0 10px rgba(0,0,0,0.3);
-        transition: transform 0.2s ease;
-      }
-
-      .project-card:hover {
-        transform: translateY(-4px);
-      }
-
-      .project-card h3 {
-        margin-top: 0;
-        font-size: 1.3rem;
-        color: #58a6ff;
-      }
-
-      .project-card p {
-        font-size: 0.95rem;
-        color: #c9d1d9;
-      }
-
-      .project-card a {
-        color: #58a6ff;
-        text-decoration: none;
-        font-weight: bold;
-        display: inline-block;
-        margin-top: 0.5rem;
-      }
-
-      footer {
-        margin-top: 3rem;
-        font-size: 0.9rem;
-        color: #8b949e;
-      }
-
-      @media (max-width: 600px) {
-        h1 {
-          font-size: 2rem;
+        /* Cards */
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            margin: 15px;
+            flex: 1 1 calc(33.33% - 30px);
         }
 
-        p {
-          font-size: 1rem;
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-bottom: 3px solid #ddd;
         }
 
-        .badges img {
-          height: 26px;
+        .card-body {
+            padding: 20px;
+            text-align: center;
         }
 
-        .socials img {
-          height: 32px;
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
         }
-      }
+
+        /* Card Text */
+        .card h3 {
+            font-size: 1.25rem;
+            margin: 15px 0;
+            font-weight: 600;
+        }
+
+        .card p {
+            color: #555;
+        }
+
+        /* Flexbox Layout for Sections */
+        .row {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .row > .card {
+            flex: 1 1 calc(30% - 30px);
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in-up {
+            animation: fadeInUp 1s ease-out forwards;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .badge-container img {
+                width: 100px;
+            }
+
+            .row > .card {
+                flex: 1 1 100%;
+            }
+        }
     </style>
-  </head>
-  <body>
-    <div class="card">
-      <h1>Hi, I'm Hridayan</h1>
-      <p>A passionate developer who builds apps and tech projects from just a phone.</p>
+</head>
+<body>
+    <div class="container">
+        <!-- Introduction Section -->
+        <div class="section fade-in-up">
+            <h1>Hey, I'm Hridayan</h1>
+            <p style="font-size: 1.2rem; text-align: center; margin-top: 20px;">An Android Developer with a passion for design and clean code. Building apps with Jetpack Compose and Material Design!</p>
+        </div>
 
-      <div class="badges">
+        <!-- Tech Stack -->
+        <div class="section fade-in-up">
+            <h2>Tech I Use</h2>
+            <div class="badges">
         <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
         <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin" />
         <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=android&logoColor=white" alt="Jetpack Compose" />
@@ -160,26 +194,70 @@
           <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
         </a>
       </div>
-
-      <div class="projects">
-        <h2>Featured Projects</h2>
-        <div class="project-grid">
-          <div class="project-card">
-            <h3>ADB Controller</h3>
-            <p>A powerful app to run ADB commands from your phone. Supports OTG and Wireless Debugging.</p>
-            <a href="https://github.com/yourusername/adb-controller" target="_blank">View on GitHub</a>
-          </div>
-          <div class="project-card">
-            <h3>XML Formatter</h3>
-            <p>Android Studio-style XML formatter. Clean, minimal, and made with Jetpack Compose.</p>
-            <a href="https://github.com/yourusername/xml-formatter" target="_blank">View on GitHub</a>
-          </div>
         </div>
-      </div>
 
-      <footer>
-        © 2025 Hridayan. All rights reserved.
-      </footer>
+        <!-- Featured Projects Section -->
+        <div class="section fade-in-up">
+            <h2>Featured Projects</h2>
+            <div class="row">
+                <a href="https://github.com/dp-hridayan/ashellyou" class="card">
+                    <div class="card-body">
+                        <h3>Ashellyou</h3>
+                        <p>A terminal-like app for Android</p>
+                    </div>
+                </a>
+                <a href="https://github.com/dp-hridayan/xmlforge" class="card">
+                         <div class="card-body">
+                        <h3>XMLForge</h3>
+                        <p>An Android app to format and edit XML files</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Quote Section -->
+        <div class="section fade-in-up">
+            <p style="font-style: italic; text-align: center;">"Code is like humor. When you have to explain it, it’s bad."</p>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="section fade-in-up">
+            <h2>Let's Connect</h2>
+            <div class="badge-container">
+                <a href="https://t.me/hridayan">
+                    <img src="https://img.shields.io/badge/Telegram-@hridayan-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+                </a>
+                <a href="https://linkedin.com/in/dp-hridayan-36a087296">
+                    <img src="https://img.shields.io/badge/LinkedIn-DP%20HRIDAYAN-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+                </a>
+                <a href="mailto:hridayanofficial@gmail.com">
+                    <img src="https://img.shields.io/badge/Email-hridayanofficial@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+                </a>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="section fade-in-up">
+            <p style="text-align: center; font-size: 0.9rem;">Built with ❤️ by Hridayan</p>
+          <p style="text-align: center; font-size: 0.9rem;">© 2025 Hridayan. All rights reserved</p>
+        </div>
     </div>
-  </body>
+
+    <script>
+        // Detecting system theme for day/night mode
+        const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+        const body = document.body;
+        
+        const setTheme = () => {
+            if (mediaQuery.matches) {
+                body.classList.add('dark-mode');
+            } else {
+                body.classList.remove('dark-mode');
+            }
+        };
+        
+        mediaQuery.addEventListener('change', setTheme);
+        setTheme(); // Set the theme on page load
+    </script>
+</body>
 </html>
