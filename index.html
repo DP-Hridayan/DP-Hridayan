@@ -5,126 +5,155 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hridayan's Developer Profile</title>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
+        /* General Styles */
         body {
-            font-family: 'Fira Code', monospace;
-            background-color: #f5f5f5;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f7f7f7;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
+            color: #333;
             transition: background-color 0.3s ease;
         }
 
         .dark-mode {
-            background-color: #181818;
-            color: #fff;
+            background-color: #121212;
+            color: #eaeaea;
         }
 
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 2rem;
+        h1, h2, h3 {
+            margin: 0;
+            font-weight: 600;
         }
 
-        h1, h2 {
+        h1 {
+            font-size: 3rem;
             text-align: center;
-            color: inherit;
+            margin-top: 50px;
         }
 
         h2 {
-            margin-top: 2rem;
-            font-size: 24px;
+            font-size: 2rem;
+            margin: 30px 0;
+            text-align: center;
             font-weight: 500;
         }
 
+        h3 {
+            font-size: 1.25rem;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            box-sizing: border-box;
+        }
+
+        .section {
+            margin-bottom: 60px;
+        }
+
+        /* Badge and Icons */
         .badge-container {
-            text-align: center;
-            margin-top: 1rem;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
         }
 
         .badge-container img {
-            margin: 0.2rem;
+            width: 120px;
+            height: auto;
+            transition: transform 0.3s ease;
         }
 
+        .badge-container img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Cards */
         .card {
-            border-radius: 15px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            margin: 1rem;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
             overflow: hidden;
-            transition: all 0.3s ease-in-out;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            margin: 15px;
+            flex: 1 1 calc(33.33% - 30px);
         }
 
         .card img {
             width: 100%;
-            border-radius: 15px 15px 0 0;
+            height: 180px;
+            object-fit: cover;
+            border-bottom: 3px solid #ddd;
         }
 
-        .card .card-body {
-            padding: 1rem;
-            background-color: #fff;
-        }
-
-        .card .card-body a {
-            text-decoration: none;
-            color: inherit;
+        .card-body {
+            padding: 20px;
+            text-align: center;
         }
 
         .card:hover {
             transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
         }
 
-        .card img {
-            max-height: 200px;
-            object-fit: cover;
+        /* Card Text */
+        .card h3 {
+            font-size: 1.25rem;
+            margin: 15px 0;
+            font-weight: 600;
         }
 
-        .card-stats {
+        .card p {
+            color: #555;
+        }
+
+        /* Flexbox Layout for Sections */
+        .row {
             display: flex;
-            justify-content: center;
-            margin: 1rem 0;
+            justify-content: space-between;
+            gap: 30px;
+            flex-wrap: wrap;
         }
 
-        .card-stats img {
-            margin: 0.5rem;
-            max-width: 100%;
-            max-height: 100px;
+        .row > .card {
+            flex: 1 1 calc(30% - 30px);
         }
 
-        .content-center {
-            text-align: center;
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
-        .typing-svg {
-            margin-top: 2rem;
-            text-align: center;
-            font-size: 22px;
+        .fade-in-up {
+            animation: fadeInUp 1s ease-out forwards;
         }
 
-        .quote {
-            font-style: italic;
-            text-align: center;
-            margin-top: 2rem;
-        }
-
-        .footer {
-            text-align: center;
-            margin-top: 2rem;
-            font-size: 14px;
-        }
-
-        /* Responsive adjustments */
+        /* Media Queries */
         @media (max-width: 768px) {
             .badge-container img {
-                margin: 0.5rem;
+                width: 100px;
             }
 
-            .card img {
-                max-height: 150px;
-            }
-
-            .card-stats img {
-                max-height: 80px;
+            .row > .card {
+                flex: 1 1 100%;
             }
         }
     </style>
@@ -132,72 +161,69 @@
 <body>
     <div class="container">
         <!-- Introduction Section -->
-        <div class="content-center">
+        <div class="section fade-in-up">
             <h1>Hey, I'm Hridayan</h1>
-            <p class="typing-svg">Just a guy who loves apps & design | Crafting Android apps | Mastering Jetpack Compose bit by bit | Designing with Material You | Building one app at a time</p>
+            <p style="font-size: 1.2rem; text-align: center; margin-top: 20px;">An Android Developer with a passion for design and clean code. Building apps with Jetpack Compose and Material Design!</p>
         </div>
 
         <!-- Tech Stack -->
-        <h2>Tech that I use</h2>
-        <div class="badge-container">
-            <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" alt="Java">
-            <img src="https://img.shields.io/badge/Kotlin-%23B125E3.svg?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin">
-            <img src="https://img.shields.io/badge/Android-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white" alt="Android">
-            <img src="https://img.shields.io/badge/Jetpack%20Compose-%23007ACC.svg?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose">
-            <img src="https://img.shields.io/badge/Material%20Design-757575?style=for-the-badge&logo=material-design&logoColor=white" alt="Material Design">
-            <img src="https://img.shields.io/badge/Dagger%20Hilt-%236200EE.svg?style=for-the-badge&logo=dagger&logoColor=white" alt="Dagger Hilt">
-            <img src="https://img.shields.io/badge/Room-3F51B5?style=for-the-badge&logo=sqlite&logoColor=white" alt="Room">
-            <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" alt="Gradle">
-            <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+        <div class="section fade-in-up">
+            <h2>Tech I Use</h2>
+            <div class="badge-container">
+                <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" alt="Java">
+                <img src="https://img.shields.io/badge/Kotlin-%23B125E3.svg?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin">
+                <img src="https://img.shields.io/badge/Android-%233DDC84.svg?style=for-the-badge&logo=android&logoColor=white" alt="Android">
+                <img src="https://img.shields.io/badge/Jetpack%20Compose-%23007ACC.svg?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose">
+                <img src="https://img.shields.io/badge/Material%20Design-757575?style=for-the-badge&logo=material-design&logoColor=white" alt="Material Design">
+                <img src="https://img.shields.io/badge/Dagger%20Hilt-%236200EE.svg?style=for-the-badge&logo=dagger&logoColor=white" alt="Dagger Hilt">
+            </div>
         </div>
 
-        <!-- Github Stats -->
-        <h2>GitHub Stats</h2>
-        <div class="content-center">
-            <img src="https://github-readme-stats.vercel.app/api?username=dp-hridayan&show_icons=true&hide_border=true&bg_color=0D1117&title_color=90CAF9&text_color=64B5F6&icon_color=CE93D8" alt="GitHub Stats">
-        </div>
-
-        <!-- Featured Projects -->
-        <h2>Featured Projects</h2>
-        <div class="card-container">
-            <a href="https://github.com/dp-hridayan/ashellyou" class="card">
-                <img src="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=ashellyou&hide_border=true&bg_color=E3F2FD&title_color=0D47A1&text_color=1565C0&icon_color=8E24AA" alt="Ashellyou Project">
-                <div class="card-body">
-                    <h3>Ashellyou</h3>
-                    <p>A project that does X</p>
-                </div>
-            </a>
-            <a href="https://github.com/dp-hridayan/xmlforge" class="card">
-                <img src="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=xmlforge&hide_border=true&bg_color=E3F2FD&title_color=0D47A1&text_color=1565C0&icon_color=8E24AA" alt="XMLForge Project">
-                <div class="card-body">
-                    <h3>XMLForge</h3>
-                    <p>A project that does Y</p>
-                </div>
-            </a>
+        <!-- Featured Projects Section -->
+        <div class="section fade-in-up">
+            <h2>Featured Projects</h2>
+            <div class="row">
+                <a href="https://github.com/dp-hridayan/ashellyou" class="card">
+                    <img src="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=ashellyou&hide_border=true&bg_color=E3F2FD&title_color=0D47A1&text_color=1565C0&icon_color=8E24AA" alt="Ashellyou Project">
+                    <div class="card-body">
+                        <h3>Ashellyou</h3>
+                        <p>A terminal-like app for Android</p>
+                    </div>
+                </a>
+                <a href="https://github.com/dp-hridayan/xmlforge" class="card">
+                    <img src="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=xmlforge&hide_border=true&bg_color=E3F2FD&title_color=0D47A1&text_color=1565C0&icon_color=8E24AA" alt="XMLForge Project">
+                    <div class="card-body">
+                        <h3>XMLForge</h3>
+                        <p>An Android app to format and edit XML files</p>
+                    </div>
+                </a>
+            </div>
         </div>
 
         <!-- Quote Section -->
-        <div class="quote">
-            <p>Code is like humor. When you have to explain it, it’s bad.</p>
+        <div class="section fade-in-up">
+            <p style="font-style: italic; text-align: center;">"Code is like humor. When you have to explain it, it’s bad."</p>
         </div>
 
         <!-- Contact Section -->
-        <h2>Let's Connect</h2>
-        <div class="content-center">
-            <a href="https://t.me/hridayan">
-                <img src="https://img.shields.io/badge/Telegram-@hridayan-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-            </a>
-            <a href="https://linkedin.com/in/dp-hridayan-36a087296">
-                <img src="https://img.shields.io/badge/LinkedIn-DP%20HRIDAYAN-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-            </a>
-            <a href="mailto:hridayanofficial@gmail.com">
-                <img src="https://img.shields.io/badge/Email-hridayanofficial@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-            </a>
+        <div class="section fade-in-up">
+            <h2>Let's Connect</h2>
+            <div class="badge-container">
+                <a href="https://t.me/hridayan">
+                    <img src="https://img.shields.io/badge/Telegram-@hridayan-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
+                </a>
+                <a href="https://linkedin.com/in/dp-hridayan-36a087296">
+                    <img src="https://img.shields.io/badge/LinkedIn-DP%20HRIDAYAN-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+                </a>
+                <a href="mailto:hridayanofficial@gmail.com">
+                    <img src="https://img.shields.io/badge/Email-hridayanofficial@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+                </a>
+            </div>
         </div>
 
         <!-- Footer -->
-        <div class="footer">
-            <p>Built with ❤️ by Hridayan</p>
+        <div class="section fade-in-up">
+            <p style="text-align: center; font-size: 0.9rem;">Built with ❤️ by Hridayan</p>
         </div>
     </div>
 
