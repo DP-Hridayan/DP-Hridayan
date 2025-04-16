@@ -82,18 +82,17 @@
 
         /* Cards */
 .card {
-    background-color: #fff;  /* Light mode background */
-    border-radius: 10px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
-    text-decoration: none;
-    color: #333;  /* Light mode text color */
-    margin: 15px;
-    flex: 1 1 calc(33.33% - 30px);
-}
-
-/* Dark mode card styles */
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            margin: 15px;
+            flex: 1 1 calc(33.33% - 30px);
+        }
+        
 .dark-mode .card {
     background-color: #333;  /* Dark mode background */
     color: #eaeaea;  /* Dark mode text color */
@@ -105,6 +104,16 @@
     object-fit: cover;
     border-bottom: 3px solid #ddd;
 }
+        
+             .card-body {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
 
 /* Card Text */
 .card h3 {
