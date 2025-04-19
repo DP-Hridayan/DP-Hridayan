@@ -65,12 +65,12 @@
   <picture>
     <source 
       media="(prefers-color-scheme: dark)" 
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=ashellyou&hide_border=true&bg_color=0D1117&title_color=90CAF9&text_color=64B5F6&icon_color=CE93D8" />
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=ashellyou&hide_border=true&bg_color=0D1117&title_color=90CAF9&text_color=64B5F6&icon_color=CE93D8&cache_seconds=1" />
     <source 
       media="(prefers-color-scheme: light)" 
-      srcset="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=ashellyou&hide_border=true&bg_color=E3F2FD&title_color=0D47A1&text_color=1565C0&icon_color=8E24AA" />
+      srcset="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=ashellyou&hide_border=true&bg_color=E3F2FD&title_color=0D47A1&text_color=1565C0&icon_color=8E24AA&cache_seconds=1" />
     <img 
-      src="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=ashellyou&hide_border=true&bg_color=E3F2FD&title_color=0D47A1&text_color=1565C0&icon_color=8E24AA"
+      src="https://github-readme-stats.vercel.app/api/pin/?username=dp-hridayan&repo=ashellyou&hide_border=true&bg_color=E3F2FD&title_color=0D47A1&text_color=1565C0&icon_color=8E24AA&cache_seconds=1"
       alt="ashellyou"
       style="border-radius:25px;" />
   </picture>
