@@ -17,7 +17,8 @@
   <img src="https://img.shields.io/badge/Jetpack%20Compose-%23007ACC.svg?style=for-the-badge&logo=jetpackcompose&logoColor=white"/>
   <img src="https://img.shields.io/badge/Material%20Design-757575?style=for-the-badge&logo=material-design&logoColor=white"/>
   <img src="https://img.shields.io/badge/Dagger%20Hilt-%236200EE.svg?style=for-the-badge&logo=dagger&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Room-3F51B5?style=for-the-badge&logo=sqlite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Room-3F51B5?style=for-the-badge&logo=sqlite&logoColor=white"/> 
+<img src="https://img.shields.io/badge/Ktor-087CFA?style=for-the-badge&logoColor=ffffff&logo=Ktor"/> 
   <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
 </p>
