@@ -20,7 +20,18 @@
   <img src="https://img.shields.io/badge/Room-3F51B5?style=for-the-badge&logo=sqlite&logoColor=white"/> 
 <img src="https://img.shields.io/badge/Ktor-087CFA?style=for-the-badge&logoColor=ffffff&logo=Ktor"/> 
   <img src="https://img.shields.io/badge/Gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logoColor=ffffff&logo=YAML"/>
+  <img src="https://img.shields.io/badge/TOML-9C4121?style=for-the-badge&logoColor=ffffff&logo=TOML"/>
+</p>
+
+</br>
+
+<p align="center"> 
+  <img src="https://img.shields.io/badge/Svg-FFB13B?logo=svg&logoColor=black&style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Github%20Actions-2088FF?style=for-the-badge&logoColor=ffffff&logo=githubactions"/>
+  <img src="https://img.shields.io/badge/Material%20Icons-2196F3?style=for-the-badge&logoColor=ffffff&logo=materialdesignicons"/>
+  <img src="https://img.shields.io/static/v1?style=for-the-badge&message=Android+Studio&color=0e2e1d&logo=Android+Studio&logoColor=3DDC84&label="/>
+    
 </p>
 
 </br>
